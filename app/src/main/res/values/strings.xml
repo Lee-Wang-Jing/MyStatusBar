@@ -4,4 +4,6 @@
     <string name="test1">测试效果在values-styles-AppTheme1中修改\n\nwindowTranslucentStatus设置了这个为true，页面顶部就会被状态栏覆盖\n\n
         windowTranslucentNavigation设置了这个为true，页面底部如果有虚拟按键就会被拉伸至最底部\n
         PS：如果设置了windowTranslucentNavigation为true，windowTranslucentStatus也会生效，即使你设置了false</string>
+
+    <string name="test2">android 6.0及以上可以设置状态栏颜色为灰色</string>
 </resources>
