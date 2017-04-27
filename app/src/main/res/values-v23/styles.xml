@@ -28,12 +28,17 @@
         <!--这个属性是你的actiinbar的属性颜色-->
         <item name="colorPrimary">@color/colorPrimary</item>
         <!--这个属性则是你的标题栏的颜色-->
-        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorPrimaryDark">#ffffff</item>
         <item name="colorAccent">@color/colorAccent</item>
 
         <!--设置了这个为true，页面顶部就会被状态栏覆盖-->
         <item name="android:windowTranslucentStatus">false</item>
         <!--设置了这个为true，页面底部如果有虚拟按键就会被拉伸至最底部 PS：设置了windowTranslucentNavigation为true，windowTranslucentStatus也会生效，即使你设置了false-->
         <item name="android:windowTranslucentNavigation">false</item>
+        <!--设置状态栏颜色-->
+        <item name="android:statusBarColor">#ffffff</item>
+        <!--设置为true时，当statusbar的背景颜色为淡色时，statusbar的文字颜色会变成灰色，为false时同理-->
+        <!--测试在小米手机上无效 需要使用小米的方法设置才行 部分华为手机上无效 比如华为mate8 6.0的系统上 新浪微博同样没有兼容-->
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 </resources>
